@@ -1,0 +1,17 @@
+.gradle
+.idea
+*.iml
+.DS_Store
+build/
+local.properties
+*.class
+*.log
+*.ctxt
+*.jar
+*.aar
+*.jks
+*.keystore
+gradle-app.setting
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots

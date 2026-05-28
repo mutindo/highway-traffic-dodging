@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Highway Traffic Dodging</string>
+    <string name="play">PLAY</string>
+    <string name="garage">GARAGE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="high_score">High Score</string>
+    <string name="coins">Coins</string>
+</resources>
