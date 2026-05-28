@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         gamePreferences = GamePreferences(this)
-
         setupUI()
     }
 
@@ -26,7 +25,6 @@ class MainActivity : AppCompatActivity() {
         val playButton = findViewById<Button>(R.id.playButton)
         val garageButton = findViewById<Button>(R.id.garajeButton)
         val settingsButton = findViewById<Button>(R.id.settingsButton)
-
         updateScores()
 
         playButton.setOnClickListener {
@@ -53,15 +51,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startGame() {
-        val intent = Intent(this, GameActivity::class.java)
+        val intent = Intent(this, Game3DActivity::class.java)
         startActivity(intent)
     }
 
     private fun openGarage() {
-        // TODO: Implement garage activity
+        // Garage activity coming soon
     }
 
     private fun openSettings() {
-        // TODO: Implement settings activity
+        // Settings activity coming soon
     }
 }
